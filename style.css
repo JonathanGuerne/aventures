@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+
+/* title should be displayed on top of map */
+#title {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+}
+
+/* map should take up the rest of the screen */
+#map {
+    flex: 1;
+    height: 100vh;
+}
+
+/* #map {
+    flex: 1;
+    height: 100vh;
+}
+
+#title {
+    top: 10px;
+    left: 10px;
+} */
