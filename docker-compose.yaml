@@ -4,7 +4,7 @@ services:
     image: nginx:alpine
     # expose the port 80
     ports:
-      - "80:80"
+      - "8001:80"
     # mount the local directory to the container
     volumes:
       - ./web:/usr/share/nginx/html
